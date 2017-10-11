@@ -13,14 +13,16 @@
 
 }
 
-html {
+html, body {
 	background-color: #fff;
 	color: #555;
 	font-family: 'Lato','Arial',sans-serif;
     font-size:20px;
     font-weight: 300;
     text-rendering: :optimizebility;
-
+    /*  **********  (used in 480*635(approx) to reduse the overflow width)*/
+    overflow-x: hidden;
+    /*  **********  */
 }
 
 .clearfix {zoom: 1}
